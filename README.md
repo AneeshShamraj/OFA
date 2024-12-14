@@ -12,9 +12,9 @@ This project aims to replicate the Visual Question Answering (VQA) task using th
 
 The VQA task in this project is evaluated on the **VQAv2 dataset**, as used in the OFA paper. The dataset includes:
 
-- **Images**: Provided by COCO.
-- **Questions**: Open-ended questions about the images.
-- **Answers**: Multiple valid answers for each question.
+- **Images**
+- **Questions**
+- **Answers**
 
 For more details, visit the [VQAv2 dataset page](https://visualqa.org/).
 
