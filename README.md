@@ -4,9 +4,8 @@ This project aims to replicate the Visual Question Answering (VQA) task using th
 
 ## Project Structure
 
-- **`main.py`**: The primary script to load the OFA model, preprocess the VQAv2 dataset, and evaluate the VQA task.
+- **`main.ipynb`**: The primary script to load the OFA model, preprocess the VQAv2 dataset, and evaluate the VQA task.
 - **`requirements.txt`**: Contains the dependencies required to run the project.
-- **`results/`**: Directory to store evaluation metrics and outputs.
 
 ## Dataset
 
@@ -31,8 +30,7 @@ pip install -r requirements.txt
 
 3. **Run the Evaluation**: Execute the main.ipynb script to preprocess the dataset and evaluate the OFA Base model on the VQA task.
 python main.ipynb
-**Results**
-The following table summarizes the results for the OFA Base model:
+
 
 Notes
 Ensure that the transformers and datasets libraries are properly installed.
