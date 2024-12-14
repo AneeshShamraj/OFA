@@ -27,17 +27,12 @@ For more details, visit the [VQAv2 dataset page](https://visualqa.org/).
 2. **Install Dependencies**: Make sure you have Python 3.8 or later installed.
 
 pip install -r requirements.txt
-Download the Dataset: Follow the instructions to download the VQAv2 dataset from the official website. Ensure that the images and annotations are correctly placed for processing.
+
 
 3. **Run the Evaluation**: Execute the main.ipynb script to preprocess the dataset and evaluate the OFA Base model on the VQA task.
 python main.ipynb
 **Results**
 The following table summarizes the results for the OFA Base model:
-
-Metric	Paper Results	Reproduced Results
-Test-Dev	78.0	TBD
-Test-Std	78.1	TBD
-(TBD: Update after evaluation)
 
 Notes
 Ensure that the transformers and datasets libraries are properly installed.
